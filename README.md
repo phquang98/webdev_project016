@@ -1,5 +1,7 @@
 # Webdev Project 016
 
+Contains practice code following the React Redux tutorial.
+
 ## :smile: **Getting Started/Brief Description**
 
 ## :computer: **Prerequisites/Built With/Technologies used**
@@ -10,6 +12,16 @@
 - ESLint + Prettier
 
 ## :page_facing_up: **Installing/Running**
+
+- clone to your machine
+- run `npm start`
+
+**How to create this boilerplate**
+
+- run `npx create-react-app`
+- copy these files `eslintrc.json`, `.prettierrc.js` and `tsconfig.json`
+- run `npm i -D prettier eslint-plugin-prettier eslint-config-prettier` for `.eslintrc.json` ( not installed by `react-scripts` )
+- create an error in `App.tsx` to check ESLint run or not; if not, debug it by running `eslint App.tsx`
 
 ## :car: **Deployment**
 
